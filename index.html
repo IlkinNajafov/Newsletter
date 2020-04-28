@@ -5,14 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <form action="/" method="POST">
-        <label for="cityInput">City Name:</label>
-        <input id="cityinput" type="text" name="cityName">
-        <button type="submit">Go</button>
-    </form>
+    <form class="" action="/" method="POST">
+        <div class="form-group">
+          <label for="cityInput">City Name:</label>
+          <input type="text" class="form-control" id="cityInput" name="cityName" placeholder="eg. London">
+        </div>
+
+        <div class="form-group">
+          <label for="">Choose a unit please:</label>
+          <select class="form-control" name="unit">
+            <option class="lead">Metric</option>
+            <option class="lead">Imperial</option>
+          </select>
+        </div>
+        <small class="lead">Metric: Celcius, Imperial: Farhenheit</small>
+        <br>
+        <div class="text-center"><button type="submit" class="btn btn-outline-primary btn-lg">GO</button></div>
+      </form>
 
 </body>
 
