@@ -1,6 +1,6 @@
 # WeatherApp
 
-Web site uses the datas from openweather.com by API.
-Thanks to him :)
+I dedicate this project to my beloved Esma Silgu, who always supports and motivates me.
+Thanks to her :)
 
-This website add is in the age of development...
+This website app is in the age of development...
