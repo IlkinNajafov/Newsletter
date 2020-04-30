@@ -1,0 +1,34 @@
+body{
+    background-image: url("/images/weather.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.city{
+    font-size: large;
+    font-weight: 400;
+}
+
+.unit{
+    font-size: large;
+    font-weight: 400;
+}
+
+
+.form-group{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.btn{
+    width: 15rem;
+}
