@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 
-app.get("/", function (req, res) {
+app.get("/", function (req, res) { 
 
     res.sendFile(__dirname + "/index.html");
 });
@@ -22,8 +22,6 @@ app.post("/", function (req, res) {
     const url = "https://api.openweathermap.org/data/2.5/weather?q= " + query + "&appid=" + appid + "&units=" + unit + ""
 
     https.get(url, function (response) {
-
-
 
         response.on("data", function (data) {
             const weatherData = JSON.parse(data)
@@ -42,10 +40,6 @@ app.post("/", function (req, res) {
 app.post("/failure", function (req, res) {
     res.redirect("/");    
 });
-
-
-
-
 
 app.listen(3000, function () {
     console.log("Server is running on port 3000");
