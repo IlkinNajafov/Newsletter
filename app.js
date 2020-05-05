@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 
-app.get("/", function (req, res) { 
+app.get("/", function (req, res) {
 
     res.sendFile(__dirname + "/index.html");
 });
@@ -35,10 +35,6 @@ app.post("/", function (req, res) {
             res.send();
         });
     });
-});
-
-app.post("/failure", function (req, res) {
-    res.redirect("/");    
 });
 
 app.listen(3000, function () {
