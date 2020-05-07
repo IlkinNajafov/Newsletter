@@ -4,3 +4,5 @@ This Web Sign-up page is a newsletter that takes API from mailchimp.com. You mig
 gives us oppurtunity how many users took place in the survey.
 
 NOTE:(Mailchimp.com automatically disables the API key in a specific time past. The Web-site may not work when use it)
+                                                                                                          
+                                                                                   :Requires to create local server
